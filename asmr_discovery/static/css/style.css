@@ -1,0 +1,31 @@
+:root {
+  --main-color: black;
+  /* color: var(--main-color) */
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img,
+svg,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+}
